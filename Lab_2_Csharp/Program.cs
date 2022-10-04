@@ -40,28 +40,20 @@ namespace Lab_2_Csharp
             switch (drink)
             {
                 case "Coffee":
-                case "coffee":
                 case "Кава":
-                case "кава":
-                    Console.WriteLine("50 грн");
+                    Console.WriteLine(" Кава коштує 50 грн");
                     break;
                 case "Tea":
-                case "tea":
                 case "Чай":
-                case "чай":
-                    Console.WriteLine("45 грн");
+                    Console.WriteLine("Чай коштує 15 грн");
                     break;
                 case "Juice":
-                case "juice":
                 case "Сік":
-                case "сік":
-                    Console.WriteLine("30 грн");
+                    Console.WriteLine("Сік коштує 30 грн");
                     break;
                 case "Watter":
-                case "watter":
                 case "Вода":
-                case "вода":
-                    Console.WriteLine("20 грн");
+                    Console.WriteLine(" Вода коштує 20 грн");
                     break;
             }
             Console.ReadKey();*/
@@ -102,9 +94,9 @@ namespace Lab_2_Csharp
             year = Convert.ToInt32(Console.ReadLine());
             if (year % 4 == 0)
                 if (year % 100 != 0)
-                    Console.WriteLine("Рік високосний");
+                    Console.WriteLine(" Цей рік - високосний");
             else
-                Console.WriteLine("Рік не високосний");
+                Console.WriteLine("Цей рік - не високосний");
             Console.ReadKey();*/
 
             //Task6
@@ -130,9 +122,9 @@ namespace Lab_2_Csharp
                     break;
             }
             if (count == num.Length)
-                Console.WriteLine("Всі числа є непарними");
+                Console.WriteLine("Непарними є всі числа");
             else
-                Console.WriteLine("Не всі числа є непарними");
+                Console.WriteLine("Непарними є не всі числа");
             Console.ReadKey();*/
 
             //Task8
@@ -170,7 +162,7 @@ namespace Lab_2_Csharp
 
             //Task9
 
-            /*Console.WriteLine("Ви можете ввести від 1 до 12, також є 2v");
+            /*Console.WriteLine("Введіть від 1 до 12, також є 2v");
             string mounth = Console.ReadLine();
             switch(mounth)
             {
@@ -181,16 +173,16 @@ namespace Lab_2_Csharp
                 case "8":
                 case "10":
                 case "12":
-                    Console.WriteLine("В цьому місяці 31 день");
+                    Console.WriteLine("Цей місяць має 31 день");
                     break;
                 case "4":
                 case "6":
                 case "9":
                 case "11":
-                    Console.WriteLine("В цьому місяці 30 днів");
+                    Console.WriteLine("Цей місяць має 30 днів");
                     break;
                 case "2":
-                    Console.WriteLine("В цьому місяці 28 днів");
+                    Console.WriteLine("Цей місяць має 28 днів");
                     break;
                 case "2v":
                     Console.WriteLine("В цьому місяці 29 днів");
